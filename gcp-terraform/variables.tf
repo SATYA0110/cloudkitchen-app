@@ -87,7 +87,7 @@ variable "release_channel" {
 variable "node_machine_type" {
   description = "Machine type for the worker nodes."
   type        = string
-  default     = "e2-medium"
+  default     = "e2-standard-8"
 }
 
 variable "node_disk_size_gb" {
